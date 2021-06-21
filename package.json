@@ -7,7 +7,7 @@
     "client": "cd src/client && npm start",
     "server": "nodemon build/server.js",
     "build": "tsc",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",

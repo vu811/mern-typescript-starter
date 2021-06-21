@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import reportWebVitals from './reportWebVitals'
+import App from './app'
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello world</h1>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )
